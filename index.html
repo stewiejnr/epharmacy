@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<!-- <link rel="stylesheet" ng-href="//maxcdn.bootstrapcdn.com/bootswatch/3.2.0/{{ css }}/bootstrap.min.css"> -->
+<!-- <link rel="stylesheet" ng-href="layout-{{ layout }}.css"> -->
+<link rel="stylesheet" href="assets/css/design1.css"> 
+
+<body ng-app="myApp">
+<div class="col-md-10 col-md-offset-1">
+	
+		<div class="jumbotron" style="padding: 10px 10% 10px">
+			<h1><a href="#default"><img src="./assets/images/logo.jpeg" style="width:84px;height:58px"> mPharm</a> <sup>&reg;</sup></h1>
+			<div ng-view></div>			
+		</div>
+
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-route.js"></script>
+<script src="/mpharm/assets/js/signature_pad.js"></script>
+<script src="app.js"></script>
+
+
+
+
+</body>
+<footer style="margin-bottom: 0px; margin-left: 20%; margin-right: 20%;">&copy; mPharm 2017</footer> 
+</html>
